@@ -1,5 +1,4 @@
-@media screen and (max-width: 678px){  
-
+@media screen and (max-width: 678px){
     nav button{
         display: inline-block;
         background: transparent;
@@ -29,8 +28,95 @@
          
     }
 
-   
+    .portfolio .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .portfolio .container div{
+        margin: 0 20%;
+    }
 
+    .portfolio .container .info{
+        margin: -80% 17%;
+    }
+
+    
 }
+
+@media screen and (max-width: 800px){
+    
+}
+@media screen and (max-width: 992px){
+    
+}
+@media screen and (max-width: 1000px){
+     
+     
+}
+@media screen and (max-width: 1400px){
+    .portfolio{
+        width: 100%;
+    }
+    .portfolio .container {
+        width: 100%;
+    }
+
+    .portfolio  div {
+         
+        margin: 2% -8%;
+    }
+
+    
+    .portfolio .container  .info p{
+        width: 130%;       
+        margin: -90% 1%;
+        
+
+    }
+    .portfolio .container  .info a{
+        margin: 100% 15%;
+    }
+
+     
+    
+  
+     
+     
+
+    
+    
+
+     
+}
+@media screen and (max-width: 2000px){
+
+    .portfolio .container   {
+        padding: 0 15%;
+    }
+    .portfolio .container .info {
+        margin: -25% 6%;
+    }
+
+     
+
+    .image-container .box-2 {
+        margin: 2%;
+    }
+    .image-container .box-2 div{
+        margin: 0.5%;
+    }
+
+     
+    
+
+    
+}
+
+ 
+
+
+
+
+
 
  

@@ -10,11 +10,17 @@ section h1{
      align-items: center;
      text-align: center;
      margin-top: 4rem;
+    
      
      
 
- }
- .container {
+}
+
+a{
+    padding: 0 8%;
+}
+
+.container {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr ;
      gap: 1rem;
@@ -59,21 +65,25 @@ section h1{
 
 .image-container{
     
-    margin: 4%;
+    margin: 4% ;
 }
 .image-container .box-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    gap: 2rem;
+     
 }
 .image-container .box-1 div img {
     width: 100%;
+     
+    
 }
+
 .image-container .box-1 .icons{
    width: 100%;
    display: flex;
    justify-content: space-around; 
-   position: relative;
+   
    margin: -7%; 
    font-size: 20px;
     
@@ -109,8 +119,11 @@ section h1{
     overflow: hidden;
     object-fit: cover;
     height: 600px;
+    overflow: hidden;
      
 }
+
+ 
 
 .image-container .box-2 .icons{
     width: 100%;
@@ -138,6 +151,22 @@ section h1{
     color: var( --color-primery);
      
 }
+ 
+
+.food .image-container {
+    width: 90%;
+    margin: 4%;
+    
+}
+
+.food  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+ 
+
+
  
  
 
